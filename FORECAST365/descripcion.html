@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<style>
+  body {
+    font-family: 'Calibri', sans-serif;
+    font-size: 12pt;
+    color: #1a1a1a;
+    max-width: 800px;
+    margin: 60px auto;
+    line-height: 1.6;
+  }
+  h1 { font-size: 28pt; color: #1a1a1a; margin-bottom: 4px; }
+  h2 { font-size: 16pt; color: #5a3e1b; border-bottom: 2px solid #c9a84c; padding-bottom: 6px; margin-top: 36px; }
+  h3 { font-size: 13pt; color: #1a1a1a; margin-top: 24px; margin-bottom: 6px; }
+  .subtitle { font-size: 12pt; color: #888; margin-bottom: 40px; }
+  .tag { background: #f5f0e8; color: #5a3e1b; font-size: 10pt; padding: 2px 10px; border-radius: 10px; display: inline-block; margin-bottom: 16px; }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 11pt; }
+  th { background: #2c1f0e; color: #fff; padding: 10px 14px; text-align: left; font-weight: 600; }
+  td { padding: 9px 14px; border-bottom: 1px solid #e8e4dc; vertical-align: top; }
+  tr:nth-child(even) td { background: #faf8f4; }
+  .label { font-weight: 600; color: #5a3e1b; width: 220px; }
+  .badge { background: #c9a84c; color: #fff; font-size: 9.5pt; padding: 2px 9px; border-radius: 8px; font-weight: 600; }
+  .badge-neutral { background: #e8e4dc; color: #5a3e1b; font-size: 9.5pt; padding: 2px 9px; border-radius: 8px; }
+  ul { margin: 8px 0; padding-left: 20px; }
+  li { margin-bottom: 5px; }
+  .box { background: #f5f0e8; border-left: 4px solid #c9a84c; padding: 14px 18px; border-radius: 4px; margin: 16px 0; }
+  .footer { margin-top: 60px; border-top: 1px solid #e8e4dc; padding-top: 14px; font-size: 10pt; color: #aaa; text-align: center; }
+  .modo-num { font-size: 28pt; color: #e8e4dc; font-weight: 700; float: right; line-height: 1; }
+  p { margin: 8px 0; }
+</style>
+</head>
+<body>
+
+<div class="tag">Documento interno · v1.0 MVP · 2026</div>
+<h1>Legacy</h1>
+<p class="subtitle">Plataforma de transferencia de conocimiento · Santa Cruz, Bolivia</p>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<h2>¿Qué es Legacy?</h2>
+<p>
+  Legacy es una plataforma digital B2B que conecta a <strong>profesionales senior que se jubilan</strong> con <strong>empresas que necesitan su conocimiento</strong>. El objetivo es convertir la salida de un líder en una transferencia ordenada de experiencia, en lugar de una pérdida irreversible para la organización.
+</p>
+<div class="box">
+  <strong>El problema que resuelve:</strong> En Bolivia se jubilan cada año cerca de 5.000 profesionales con experiencia de mando. Sus empresas pierden en promedio $180.000 en costos de rotación. El senior pierde el sentido de seguir siendo útil. Legacy convierte esa partida en valor para ambas partes.
+</div>
+
+<table>
+  <tr><th colspan="2">Datos clave de la plataforma</th></tr>
+  <tr><td class="label">Años de experiencia promedio del senior</td><td><strong>40+</strong></td></tr>
+  <tr><td class="label">Procesos documentados por programa</td><td><strong>47</strong></td></tr>
+  <tr><td class="label">Cobertura de sucesión en empresas piloto</td><td><strong>78%</strong></td></tr>
+  <tr><td class="label">Retorno sobre rotación evitada (ROI)</td><td><strong>7,3×</strong></td></tr>
+  <tr><td class="label">Comisión de la plataforma</td><td><strong>15%</strong> (plan Premium) / 20% (plan base)</td></tr>
+  <tr><td class="label">Costo membresía senior Premium</td><td><strong>USD 35/mes</strong></td></tr>
+  <tr><td class="label">Ciudades</td><td>Santa Cruz · La Paz · Cochabamba</td></tr>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<h2>Los tres modos de operación</h2>
+<p>Legacy funciona con tres modelos de negocio distintos dentro de un mismo ecosistema:</p>
+
+<h3><span class="badge">Modo 1</span> &nbsp;Transferencia interna</h3>
+<div class="modo-num">01</div>
+<p>
+  El senior que se jubila acompaña a su sucesor identificado durante <strong>6 meses</strong>. El programa está estructurado en módulos con bitácoras, entregables y sesiones documentadas que miden el traspaso real de conocimiento.
+</p>
+<ul>
+  <li><strong>Para quién:</strong> Empresas que ya tienen identificado al sucesor interno.</li>
+  <li><strong>Duración:</strong> 6 meses, divididos en módulos temáticos.</li>
+  <li><strong>Participantes:</strong> Senior (mentor), Sucesor, y un supervisor de RRHH.</li>
+  <li><strong>Entregables:</strong> Bitácoras por sesión, archivos adjuntos, porcentaje de avance por módulo.</li>
+</ul>
+
+<h3><span class="badge">Modo 2</span> &nbsp;Marketplace de sabiduría</h3>
+<div class="modo-num">02</div>
+<p>
+  Una empresa publica una necesidad (mentor externo, consultor, asiento de comité). Los seniors verificados postulan. Legacy media el proceso, verifica trayectoria y referencias, y conecta a las partes.
+</p>
+<ul>
+  <li><strong>Para quién:</strong> Empresas que buscan talento senior externo. Seniors que quieren trabajar con otras organizaciones.</li>
+  <li><strong>Tipos de rol:</strong> Mentor, consultor de proyecto, miembro de comité.</li>
+  <li><strong>Filtros disponibles:</strong> Sector industrial, tipo de rol, disponibilidad, match de perfil (%).</li>
+  <li><strong>Match:</strong> El sistema calcula un porcentaje de compatibilidad entre el perfil del senior y la necesidad de la empresa.</li>
+</ul>
+
+<h3><span class="badge">Modo 3</span> &nbsp;Consultoría on-call</h3>
+<div class="modo-num">03</div>
+<p>
+  Cerrado el traspaso del Modo 1, el senior queda disponible para ser contratado por horas durante los 12 meses siguientes. La organización conserva acceso a su criterio de forma flexible, sin compromiso de tiempo completo.
+</p>
+<ul>
+  <li><strong>Para quién:</strong> Continuidad después del programa de traspaso.</li>
+  <li><strong>Formato:</strong> Horas contratadas según demanda.</li>
+</ul>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<h2>Tipos de usuario en la plataforma</h2>
+
+<table>
+  <tr><th>Tipo</th><th>Quién es</th><th>Qué puede hacer</th></tr>
+  <tr>
+    <td><strong>Senior</strong></td>
+    <td>Profesional con 40+ años de experiencia que se jubila o está en proceso de retiro</td>
+    <td>Ver su programa activo, registrar sesiones, ver honorarios, postular a oportunidades del Marketplace, gestionar su perfil público</td>
+  </tr>
+  <tr>
+    <td><strong>Empresa / RRHH</strong></td>
+    <td>Gerente de RRHH o empresa que contrata seniors</td>
+    <td>Ver el pipeline de jubilaciones, buscar seniors en el Marketplace, supervisar programas activos, ver métricas ESG, gestionar empleados</td>
+  </tr>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<h2>Secciones del panel (vista Senior)</h2>
+
+<h3>Inicio · Panel principal</h3>
+<p>La pantalla de inicio del senior muestra un resumen de todo lo relevante en un solo lugar.</p>
+<table>
+  <tr><th>Campo / Sección</th><th>Qué significa</th></tr>
+  <tr><td class="label">Horas mes</td><td>Total de horas trabajadas/dedicadas al programa durante el mes actual. Se actualiza en tiempo real.</td></tr>
+  <tr><td class="label">Honorarios (mes)</td><td>Monto en USD que la plataforma liquidará al senior por su trabajo ese mes. Se paga el último día hábil.</td></tr>
+  <tr><td class="label">Sesiones totales</td><td>Número de sesiones realizadas sobre el total planificado en el programa (ej: 18 de 36).</td></tr>
+  <tr><td class="label">Reputación</td><td>Puntuación del senior basada en evaluaciones de las empresas (escala de 1 a 5). Determina su visibilidad en el Marketplace.</td></tr>
+  <tr><td class="label">Programa activo</td><td>Tarjeta con el programa de traspaso en curso: empresa, sucesor, fecha de inicio, cierre estimado y porcentaje de avance.</td></tr>
+  <tr><td class="label">Avance del programa</td><td>Barra de progreso que muestra qué tan avanzado está el programa de transferencia (expresado en %).</td></tr>
+  <tr><td class="label">Actividad reciente</td><td>Feed de notificaciones: confirmaciones de sesión, invitaciones del Marketplace, liquidaciones de honorarios, actualizaciones de RRHH.</td></tr>
+  <tr><td class="label">Oportunidades para ti</td><td>Tarjetas de empresas del Marketplace que buscan un senior con el perfil del usuario. Muestra empresa, rol, compensación y porcentaje de match.</td></tr>
+</table>
+
+<h3>Programa con Juan · Transferencia interna</h3>
+<p>Vista detallada del programa de traspaso Modo 1 activo.</p>
+<table>
+  <tr><th>Campo / Sección</th><th>Qué significa</th></tr>
+  <tr><td class="label">Participantes</td><td>Tarjetas con foto de los tres involucrados: Senior (mentor), Sucesor e identificación de RRHH supervisor.</td></tr>
+  <tr><td class="label">Módulos del programa</td><td>Lista de etapas temáticas del traspaso (ej: Operaciones, Proveedores, Equipo). Cada módulo tiene estado: completado, en curso o pendiente.</td></tr>
+  <tr><td class="label">Módulo activo</td><td>El módulo en el que se está trabajando actualmente. Muestra las sesiones programadas, realizadas y el contenido a transferir.</td></tr>
+  <tr><td class="label">Sesiones del módulo</td><td>Lista de sesiones (fechas, tipo, estado). Cada sesión puede tener notas y archivos adjuntos.</td></tr>
+  <tr><td class="label">Registrar sesión</td><td>Botón para documentar que se realizó una sesión de ese día: agrega la sesión al historial con fecha y hora.</td></tr>
+  <tr><td class="label">Anexar documento</td><td>Permite subir archivos (PDF, Word, Excel, imágenes) para dejar documentación del traspaso.</td></tr>
+  <tr><td class="label">Bitácora</td><td>Registro cronológico de todas las sesiones realizadas con notas y archivos.</td></tr>
+</table>
+
+<h3>Sesiones</h3>
+<p>Espacio de sesión en vivo o registro de una sesión de trabajo entre el senior y el sucesor.</p>
+<table>
+  <tr><th>Campo / Sección</th><th>Qué significa</th></tr>
+  <tr><td class="label">Chat de sesión</td><td>Historial de mensajes de la sesión activa, con notas y decisiones registradas.</td></tr>
+  <tr><td class="label">Decisiones / acuerdos</td><td>Registro de puntos clave acordados durante la sesión (queda como evidencia del traspaso).</td></tr>
+  <tr><td class="label">Participantes activos</td><td>Quiénes están presentes en la sesión (senior, sucesor, RRHH si aplica).</td></tr>
+</table>
+
+<h3>Oportunidades · Marketplace (Modo 2)</h3>
+<p>El senior puede ver y postular a oportunidades publicadas por empresas externas.</p>
+<table>
+  <tr><th>Campo / Sección</th><th>Qué significa</th></tr>
+  <tr><td class="label">Tipo de oportunidad</td><td>Puede ser: Mentoría, Consultoría, Comité asesor, Proyecto.</td></tr>
+  <tr><td class="label">Empresa</td><td>Nombre de la empresa que publica la necesidad.</td></tr>
+  <tr><td class="label">Rol requerido</td><td>Descripción de lo que busca la empresa (ej: "Gerente de planta para mentorear a sucesor").</td></tr>
+  <tr><td class="label">Compensación</td><td>Monto ofrecido en USD por sesión o por mes.</td></tr>
+  <tr><td class="label">Match %</td><td>Porcentaje de compatibilidad calculado entre el perfil del senior y los requerimientos de la empresa. Mayor match = mayor relevancia.</td></tr>
+  <tr><td class="label">Postular</td><td>Acción del senior para aplicar a la oportunidad. Legacy media el primer contacto sin revelar datos personales hasta aceptación mutua.</td></tr>
+  <tr><td class="label">Lista corta (Shortlist)</td><td>Oportunidades guardadas por el senior para revisar después.</td></tr>
+</table>
+
+<h3>Mi perfil público</h3>
+<p>La "vitrina" del senior visible para las empresas en el Marketplace.</p>
+<table>
+  <tr><th>Campo / Sección</th><th>Qué significa</th></tr>
+  <tr><td class="label">Nombre y cargo</td><td>Nombre completo y último cargo del senior.</td></tr>
+  <tr><td class="label">Años de experiencia</td><td>Total de años trabajados en su área de especialidad.</td></tr>
+  <tr><td class="label">Sector</td><td>Industria en la que trabajó (ej: manufactura, agroindustria, finanzas).</td></tr>
+  <tr><td class="label">Empresas anteriores</td><td>Historial de empleadores verificados por la plataforma.</td></tr>
+  <tr><td class="label">Disponibilidad</td><td>Indica si está disponible para nuevas oportunidades del Marketplace o solo enfocado en programa actual.</td></tr>
+  <tr><td class="label">Reputación / rating</td><td>Promedio de evaluaciones de empresas con las que ha trabajado.</td></tr>
+  <tr><td class="label">Verificado</td><td>Insignia que indica que Legacy confirmó la trayectoria del senior con empresas pares.</td></tr>
+  <tr><td class="label">Testimonios</td><td>Comentarios de empresas o colegas que avalan la trayectoria del senior.</td></tr>
+</table>
+
+<h3>Honorarios · Facturación</h3>
+<p>Control de ingresos, historial de pagos y configuración de membresía.</p>
+<table>
+  <tr><th>Campo / Sección</th><th>Qué significa</th></tr>
+  <tr><td class="label">Acumulado del año</td><td>Total en USD ganado desde enero hasta la fecha (neto, ya descontada la comisión de Legacy).</td></tr>
+  <tr><td class="label">Próxima liquidación</td><td>Fecha del próximo pago y monto estimado. Las liquidaciones ocurren el último día hábil de cada mes.</td></tr>
+  <tr><td class="label">Comisión Legacy</td><td>Porcentaje que retiene la plataforma por sus servicios (15% plan Premium, 20% plan base).</td></tr>
+  <tr><td class="label">Membresía</td><td>Plan activo del senior. "Premium" da visibilidad prioritaria, comisión reducida y soporte dedicado.</td></tr>
+  <tr><td class="label">Historial de movimientos</td><td>Lista de pagos recibidos y cobros de membresía: concepto, empresa, período, monto y estado.</td></tr>
+  <tr><td class="label">Cuenta bancaria</td><td>Datos bancarios donde se depositan los honorarios. Verificada por la plataforma.</td></tr>
+  <tr><td class="label">Descargar reporte</td><td>Genera un PDF con el resumen de honorarios e historial para presentar como comprobante o declaración.</td></tr>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<h2>Panel del Sucesor — Vista de Juan Antelo</h2>
+<p>Juan tiene su propio panel dentro de la plataforma. Su vista está enfocada en su proceso de aprendizaje y en las sesiones con Lorgio.</p>
+
+<h3>Inicio · Panel del Sucesor</h3>
+<table>
+  <tr><th>Campo / Sección</th><th>Qué significa</th></tr>
+  <tr><td class="label">Avance del programa</td><td>Porcentaje completado del programa de transferencia de 6 meses. Actualmente: 48% (mes 3 de 6).</td></tr>
+  <tr><td class="label">Sesiones de sombra</td><td>Cuántas sesiones de observación en planta realizó Juan junto a Lorgio (18 de 36 planificadas).</td></tr>
+  <tr><td class="label">Decisiones registradas</td><td>Número de decisiones operativas que Juan ha tomado o presenciado y que quedaron documentadas en la bitácora (23 hasta ahora).</td></tr>
+  <tr><td class="label">Confianza autoreportada</td><td>Puntaje que Juan se asigna a sí mismo sobre su nivel de seguridad para gestionar el puesto. Escala del 1 al 10. Pasó de 5.4 (mes 1) a 7.2 (mes 3), mostrando el progreso real del traspaso.</td></tr>
+  <tr><td class="label">Tarjeta de mentor</td><td>Muestra el perfil de Lorgio: nombre, años en la empresa, disponibilidad, y acceso directo para iniciar conversación con él.</td></tr>
+  <tr><td class="label">Lo aprendido este mes</td><td>Lista de los conocimientos clave que Juan incorporó en el período actual. Ejemplo: "Criterio de cambio de mordaza por cliente y material — no por reloj". Son las cosas tácitas que no están en ningún manual.</td></tr>
+  <tr><td class="label">Sesión de hoy</td><td>Tarjeta con el detalle de la próxima sesión: tema, hora, lugar y duración estimada. Incluye acceso directo al chat/conversación con Lorgio.</td></tr>
+  <tr><td class="label">Abrir conversación con Lorgio</td><td>Botón que lleva directamente al espacio de sesión activa donde pueden intercambiar notas, decisiones y mensajes.</td></tr>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<h2>Panel de RRHH — Vista de Andrea Cuéllar</h2>
+<p>Andrea, como Gerente de RRHH, supervisa todos los programas activos de la empresa. Su panel es operativo: ve el estado de cada programa, genera reportes y gestiona el pipeline de jubilaciones.</p>
+
+<h3>Inicio · Panel de RRHH</h3>
+<table>
+  <tr><th>Campo / Sección</th><th>Qué significa</th></tr>
+  <tr><td class="label">Programas activos</td><td>Total de programas corriendo en la empresa (en el demo: 3 — 2 traspasos internos y 1 mentoría del Marketplace).</td></tr>
+  <tr><td class="label">Conocimiento documentado</td><td>Total de procesos críticos que ya fueron registrados en la plataforma durante el año (128 procesos en 2026).</td></tr>
+  <tr><td class="label">Inversión 2026</td><td>Gasto total de la empresa en honorarios de seniors y membresía Legacy en el año. Se compara automáticamente con el costo estimado de rotación que se evitó.</td></tr>
+  <tr><td class="label">Próximas jubilaciones</td><td>Cantidad de empleados que se jubilarán en los próximos 18 meses (4 en el demo de FlexoCruz).</td></tr>
+  <tr><td class="label">Programas en curso</td><td>Tabla con todos los programas activos: quién traspasa a quién, área, tipo (interno o Marketplace), porcentaje de avance y estado (En tiempo / Atención).</td></tr>
+  <tr><td class="label">Estado del programa</td><td>Semáforo que indica si el programa va según el cronograma (verde = En tiempo) o si necesita intervención (amarillo = Atención).</td></tr>
+  <tr><td class="label">Pendiente sucesor</td><td>Alerta que aparece cuando un empleado próximo a jubilarse no tiene sucesor designado. Activa la búsqueda en el Marketplace.</td></tr>
+  <tr><td class="label">Buscar mentor</td><td>Botón que lleva directamente al Marketplace para encontrar un senior externo que cubra una necesidad.</td></tr>
+  <tr><td class="label">Nuevo programa</td><td>Botón para iniciar un programa de traspaso interno nuevo para cualquier empleado de la empresa.</td></tr>
+  <tr><td class="label">Reporte RSE · Q1</td><td>Panel lateral con métricas de impacto listas para incluir en el reporte de sostenibilidad anual: procesos preservados, horas de mentoría, seniors empleados, cobertura de sucesión. Se exporta en PDF con un clic.</td></tr>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<h2>Panel de Empresa — Vista ejecutiva 360° (FlexoCruz)</h2>
+<p>La vista de empresa es la más completa. Está pensada para la Dirección o Gerencia General. Tiene 6 pestañas que cubren todos los ángulos del programa Legacy dentro de la organización.</p>
+
+<h3>Pestaña: Resumen ejecutivo</h3>
+<table>
+  <tr><th>Campo / Sección</th><th>Qué significa</th></tr>
+  <tr><td class="label">Programas activos</td><td>Total de programas corriendo (internos + externos vía Marketplace).</td></tr>
+  <tr><td class="label">Procesos preservados</td><td>Cantidad de procesos críticos documentados desde que la empresa usa Legacy. Compara contra el trimestre anterior.</td></tr>
+  <tr><td class="label">Inversión YTD</td><td>"Year to Date" — gasto acumulado desde enero. Se muestra junto al costo de rotación evitado para que la dirección vea el retorno directamente.</td></tr>
+  <tr><td class="label">Cobertura de sucesión</td><td>% de puestos clave que ya tienen sucesor identificado y programa activo. La meta es 90%. Muestra cuántos cargos críticos siguen sin cobertura.</td></tr>
+  <tr><td class="label">Alerta · Requiere atención</td><td>Banner que destaca las acciones urgentes: empleados sin sucesor designado, contratos pendientes de aprobación, plazos próximos. Con botones directos para actuar.</td></tr>
+  <tr><td class="label">Programas en curso</td><td>Tabla consolidada de todos los programas activos con nombre de los participantes, área, modo (Modo 1 o Marketplace), progreso e inversión por programa.</td></tr>
+  <tr><td class="label">Tarjeta ROI 7,3×</td><td>Panel visual que muestra el retorno sobre la inversión: compara cuánto gastó la empresa en Legacy versus cuánto hubiera costado perder y reemplazar a esas personas. En FlexoCruz: $24K invertidos vs $180K de rotación evitada.</td></tr>
+  <tr><td class="label">Colaboradores totales</td><td>Headcount total de la empresa (320 en FlexoCruz).</td></tr>
+  <tr><td class="label">Seniors 55+ activos</td><td>Cuántos empleados de 55 o más años están activos y potencialmente próximos a retirarse (18 en FlexoCruz = 5,6% de la planilla).</td></tr>
+  <tr><td class="label">Retención de talento clave</td><td>% de retención del talento identificado como crítico para la empresa. En FlexoCruz: subió 4 puntos porcentuales vs 2025.</td></tr>
+  <tr><td class="label">Score ESG</td><td>Cuántos puntos mejoró el indicador ESG de la empresa respecto al año anterior, gracias al impacto del programa Legacy.</td></tr>
+</table>
+
+<h3>Pestaña: Personas — Pipeline de sucesión</h3>
+<table>
+  <tr><th>Campo / Sección</th><th>Qué significa</th></tr>
+  <tr><td class="label">Pipeline de sucesión</td><td>Tarjetas de cada empleado próximo a jubilarse con: nombre, cargo, área, fecha estimada de jubilación, sucesor asignado (o "Por designar") y nivel de riesgo.</td></tr>
+  <tr><td class="label">Nivel de riesgo</td><td>Semáforo de 3 niveles: Bajo riesgo (verde, ya tiene sucesor en programa), Riesgo medio (naranja, sucesor identificado pero sin programa activo), Riesgo alto (amarillo, sin sucesor designado).</td></tr>
+  <tr><td class="label">Ver perfil / Ver programa</td><td>Acciones por cada persona: "Ver programa" si ya tiene uno activo, o "Buscar mentor" en el Marketplace si está sin cobertura.</td></tr>
+  <tr><td class="label">Demografía por rango de edad</td><td>Gráfico de barras que muestra la distribución de la planilla por franjas etarias (20–29, 30–44, 45–54, 55+). Permite anticipar cuándo vendrá la próxima ola de jubilaciones.</td></tr>
+  <tr><td class="label">Cobertura por área crítica</td><td>Estado de sucesión desglosado por área de la empresa (Producción, Calidad, Mantenimiento, Comercial, Finanzas). Muestra si hay sucesor, quién lo acompaña y el nivel de riesgo por área.</td></tr>
+  <tr><td class="label">Exportar mapa</td><td>Botón para descargar el mapa organizacional de sucesión en PDF para presentar al directorio o a auditores.</td></tr>
+</table>
+
+<h3>Pestaña: Programas</h3>
+<table>
+  <tr><th>Campo / Sección</th><th>Qué significa</th></tr>
+  <tr><td class="label">Programa estrella</td><td>El programa de transferencia interna principal. En el demo: Lorgio → Juan. Muestra todos sus datos: participantes, fechas, módulos, sesiones, horas, decisiones acompañadas e inversión total vs gastada.</td></tr>
+  <tr><td class="label">Decisiones acompañadas</td><td>Cuántas decisiones operativas reales tomó Juan con la supervisión de Lorgio y quedaron registradas. Es la métrica de transferencia de criterio más valiosa.</td></tr>
+  <tr><td class="label">Presupuesto del programa</td><td>Total asignado vs. gastado hasta la fecha. Permite controlar si el programa se está ejecutando dentro del presupuesto.</td></tr>
+  <tr><td class="label">Mentorías externas (Modo 2)</td><td>Tarjetas de cada senior del Marketplace contratado: su nombre, empresa de origen, qué está haciendo en FlexoCruz, avance, próxima sesión, inversión y horas totales.</td></tr>
+  <tr><td class="label">Contratar mentor</td><td>Botón para ir al Marketplace y publicar una nueva búsqueda de senior externo.</td></tr>
+  <tr><td class="label">Bitácora</td><td>Botón para descargar o ver el registro completo de sesiones del programa seleccionado.</td></tr>
+</table>
+
+<h3>Pestaña: Conocimiento</h3>
+<table>
+  <tr><th>Campo / Sección</th><th>Qué significa</th></tr>
+  <tr><td class="label">Cobertura por área</td><td>Barra de progreso por área que muestra cuántos procesos fueron documentados vs cuántos deberían documentarse. Verde = bien cubierta, amarillo = riesgo medio, gris = crítica.</td></tr>
+  <tr><td class="label">Responsable del área</td><td>Quién es el senior "dueño" del conocimiento en esa área. Si se jubila sin documentar, ese conocimiento se pierde.</td></tr>
+  <tr><td class="label">Alerta de áreas en riesgo</td><td>Destaca las áreas con baja cobertura y próxima jubilación del responsable. En FlexoCruz: Mantenimiento (51%) y Finanzas (52%) son críticas.</td></tr>
+  <tr><td class="label">Iniciar plan de captura</td><td>Acción para lanzar un proceso urgente de documentación en las áreas con riesgo alto antes de que el senior se vaya.</td></tr>
+  <tr><td class="label">Documentos recientes</td><td>Biblioteca de archivos subidos durante los programas: manuales operativos, bitácoras, directorios de proveedores, criterios de decisión. Cada documento tiene autor, fecha, área y tamaño.</td></tr>
+  <tr><td class="label">Biblioteca completa</td><td>Repositorio de todo el conocimiento capturado en la empresa, accesible para RRHH y la Dirección.</td></tr>
+</table>
+
+<h3>Pestaña: Finanzas</h3>
+<table>
+  <tr><th>Campo / Sección</th><th>Qué significa</th></tr>
+  <tr><td class="label">Plan Enterprise</td><td>Suscripción mensual de la empresa a Legacy (USD 800/mes). Incluye traspasos ilimitados, dashboard ejecutivo, Marketplace preferente y coordinador dedicado.</td></tr>
+  <tr><td class="label">Inversión YTD</td><td>Total gastado en honorarios de seniors + membresía desde enero.</td></tr>
+  <tr><td class="label">Rotación evitada</td><td>Estimación del costo que hubiera tenido perder y reemplazar a los empleados clave que están en programa. Se calcula usando el benchmark de $180K por puesto de mando.</td></tr>
+  <tr><td class="label">ROI estimado</td><td>División simple: rotación evitada / inversión total. En FlexoCruz: $180K / $24K = 7,3×.</td></tr>
+  <tr><td class="label">Movimientos del trimestre</td><td>Estado de cuenta detallado: honorarios pagados a cada senior por programa, comisiones de la plataforma, suscripción mensual y pagos pendientes.</td></tr>
+  <tr><td class="label">Comisión Legacy (Modo 2)</td><td>15% sobre los honorarios de seniors externos contratados vía Marketplace. Es independiente del costo de la membresía.</td></tr>
+  <tr><td class="label">Reporte fiscal</td><td>Botón para exportar el estado de cuenta completo del trimestre en formato PDF, útil para contabilidad y auditoría.</td></tr>
+</table>
+
+<h3>Pestaña: RSE (Responsabilidad Social Empresarial)</h3>
+<table>
+  <tr><th>Campo / Sección</th><th>Qué significa</th></tr>
+  <tr><td class="label">Conocimiento preservado</td><td>Total de procesos críticos documentados en el año. Indicador de gobernanza del conocimiento.</td></tr>
+  <tr><td class="label">Horas de mentoría intergeneracional</td><td>Horas totales de sesión entre seniors y sucesores. Indicador de impacto social (empleabilidad de adultos mayores + desarrollo de jóvenes líderes).</td></tr>
+  <tr><td class="label">Adultos mayores empleados</td><td>Cuántos seniors de 55+ años están activos en la plataforma como mentores para la empresa. Cuenta como inclusión laboral en reportes ESG.</td></tr>
+  <tr><td class="label">Cobertura crítica</td><td>% de puestos clave con plan de sucesión activo. La meta 2026 es 90%.</td></tr>
+  <tr><td class="label">Satisfacción de mentores</td><td>Promedio de evaluación de los seniors sobre su experiencia en el programa (4.8/5.0 en FlexoCruz).</td></tr>
+  <tr><td class="label">Score ESG Legacy</td><td>Calificación global del impacto de la empresa según la metodología BID Lab. FlexoCruz subió de B+ a A−.</td></tr>
+  <tr><td class="label">Categorías ESG cubiertas</td><td>Etiquetas que indican en qué dimensiones del reporte de sostenibilidad aplica el impacto de Legacy: Inclusión laboral 55+, Gestión del conocimiento, Continuidad operativa, Aprendizaje intergeneracional, Gobernanza corporativa.</td></tr>
+  <tr><td class="label">Próximos hitos</td><td>Calendario de las fechas clave del año para el reporte ESG: auditoría externa, reporte semestral, presentación al directorio.</td></tr>
+  <tr><td class="label">Exportar para memoria anual</td><td>Genera el reporte ESG completo en PDF, listo para incluir en la memoria anual de la empresa o para presentar a inversores.</td></tr>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<h2>Membresía Senior Premium — ¿qué incluye?</h2>
+<table>
+  <tr><th>Beneficio</th><th>Detalle</th></tr>
+  <tr><td>Visibilidad prioritaria en Marketplace</td><td>El perfil aparece primero en búsquedas de empresas</td></tr>
+  <tr><td>Insignia de mentor verificado</td><td>Sello visible en el perfil público que genera confianza</td></tr>
+  <tr><td>Comisión reducida</td><td>15% en lugar del 20% estándar sobre honorarios</td></tr>
+  <tr><td>Reportes de impacto descargables</td><td>PDFs con métricas del programa para presentar a empresas o al propio historial</td></tr>
+  <tr><td>Coordinador dedicado</td><td>Acceso a soporte personalizado del equipo Legacy</td></tr>
+  <tr><td>Precio</td><td><strong>USD 35/mes</strong> · renovación automática mensual</td></tr>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<h2>Caso demo: FlexoCruz S.A.</h2>
+<p>
+  El MVP de Legacy usa un caso real ficticio ambientado en <strong>FlexoCruz S.A.</strong>, empresa de manufactura de Santa Cruz, Bolivia, para ilustrar cómo funciona la plataforma de punta a punta.
+</p>
+
+<h3>Los personajes del caso</h3>
+
+<table>
+  <tr><th colspan="2">👤 Lorgio Saucedo Roca — El Senior (Mentor)</th></tr>
+  <tr><td class="label">Edad</td><td>64 años</td></tr>
+  <tr><td class="label">Cargo actual</td><td>Gerente de Producción en proceso de jubilación · FlexoCruz S.A.</td></tr>
+  <tr><td class="label">Experiencia</td><td>40 años en líneas de extrusión y conversión flexográfica</td></tr>
+  <tr><td class="label">Sector</td><td>Manufactura</td></tr>
+  <tr><td class="label">Logros</td><td>Diseñó el sistema de control de calidad de FlexoCruz. Formó tres generaciones de jefes de planta.</td></tr>
+  <tr><td class="label">Áreas de expertise</td><td>Producción industrial, Lean Manufacturing, Calidad ISO 9001, Liderazgo operativo, Gestión de mermas</td></tr>
+  <tr><td class="label">Disponibilidad</td><td>Lunes a Jueves · 09:00–13:00</td></tr>
+  <tr><td class="label">Tarifa</td><td>USD 65 / hora</td></tr>
+  <tr><td class="label">Reputación en plataforma</td><td>4.9 / 5.0 · Top 5% senior</td></tr>
+  <tr><td class="label">Membresía</td><td>Premium · USD 35/mes</td></tr>
+  <tr><td class="label">Estado en plataforma</td><td>En programa de transferencia interna (Modo 1) con FlexoCruz</td></tr>
+  <tr><td class="label">Rol en el demo</td><td>Es el usuario principal del panel de Senior. Toda la vista del dashboard, honorarios, sesiones y marketplace corresponde a su perspectiva.</td></tr>
+</table>
+
+<table>
+  <tr><th colspan="2">👤 Juan Antelo Méndez — El Sucesor</th></tr>
+  <tr><td class="label">Edad</td><td>38 años</td></tr>
+  <tr><td class="label">Cargo actual</td><td>Jefe de Planta · sucesor designado para Gerente de Producción</td></tr>
+  <tr><td class="label">Empresa</td><td>FlexoCruz S.A.</td></tr>
+  <tr><td class="label">Antigüedad en la empresa</td><td>6 años</td></tr>
+  <tr><td class="label">Email</td><td>j.antelo@flexocruz.bo</td></tr>
+  <tr><td class="label">Quién lo designó</td><td>Dirección de FlexoCruz · 15 de marzo 2026</td></tr>
+  <tr><td class="label">Rol en el programa</td><td>Recibe el conocimiento de Lorgio durante 6 meses a través de sesiones estructuradas, módulos y bitácoras. Pasa de observar a tomar decisiones reales de planta.</td></tr>
+  <tr><td class="label">Progreso del traspaso</td><td>Mes 3 de 6 · 48% completado</td></tr>
+  <tr><td class="label">Módulo actual</td><td>Módulo 3: "Sombra operativa" — Juan acompaña a Lorgio en decisiones reales de planta.</td></tr>
+  <tr><td class="label">Próximo módulo</td><td>Módulo 4: "Inversión de roles" — Juan decide, Lorgio observa y respalda.</td></tr>
+  <tr><td class="label">Rol en el demo</td><td>Aparece como contraparte de Lorgio en el programa. Sus confirmaciones de sesión generan notificaciones en el panel.</td></tr>
+</table>
+
+<table>
+  <tr><th colspan="2">👤 Andrea Cuéllar Vaca — La Supervisora de RRHH</th></tr>
+  <tr><td class="label">Cargo</td><td>Gerente de RRHH y Sostenibilidad · FlexoCruz S.A.</td></tr>
+  <tr><td class="label">Edad</td><td>44 años</td></tr>
+  <tr><td class="label">En la empresa desde</td><td>2019</td></tr>
+  <tr><td class="label">Email</td><td>a.cuellar@flexocruz.bo</td></tr>
+  <tr><td class="label">Rol en el programa</td><td>Sponsor y supervisora del programa de traspaso. Valida avances, actualiza módulos y hace seguimiento al proceso desde la empresa.</td></tr>
+  <tr><td class="label">Rol en el demo</td><td>Su actividad aparece en el feed de notificaciones de Lorgio ("Andrea Cuéllar actualizó el módulo 3"). En la vista Empresa, es ella quien gestiona el pipeline de jubilaciones y el Marketplace.</td></tr>
+</table>
+
+<h3>Los 6 módulos del programa Lorgio → Juan</h3>
+<table>
+  <tr><th>#</th><th>Nombre del módulo</th><th>Descripción</th><th>Duración</th><th>Entregable</th><th>Estado</th></tr>
+  <tr><td>1</td><td>Conocimiento técnico y procesos</td><td>Transferencia de los procesos operativos clave de la planta</td><td>4 semanas</td><td>Manual de procesos actualizado</td><td>Completado</td></tr>
+  <tr><td>2</td><td>Red de proveedores y contratos</td><td>Lorgio presenta a Juan a los proveedores clave y explica la lógica de cada contrato</td><td>4 semanas</td><td>Directorio de proveedores comentado</td><td>Completado</td></tr>
+  <tr><td>3</td><td>Sombra operativa — Juan acompaña a Lorgio</td><td>Decisiones reales en planta con observación estructurada</td><td>6 semanas</td><td>Bitácora de sombra · 18 sesiones</td><td><strong>En curso</strong></td></tr>
+  <tr><td>4</td><td>Inversión de roles — Juan decide, Lorgio observa</td><td>Juan toma la línea con respaldo del consultor</td><td>6 semanas</td><td>Casos resueltos por Juan</td><td>Pendiente</td></tr>
+  <tr><td>5</td><td>Gestión del equipo y cultura</td><td>Lorgio presenta al equipo desde su perspectiva: fortalezas, dinámicas y personas clave</td><td>4 semanas</td><td>Mapa del equipo + recomendaciones</td><td>Pendiente</td></tr>
+  <tr><td>6</td><td>Cierre y consultoría a demanda</td><td>Lorgio queda como consultor on-call por 12 meses para consultas puntuales</td><td>2 semanas</td><td>Acta de cierre + contrato consultoría</td><td>Pendiente</td></tr>
+</table>
+
+<h3>Otros seniors disponibles en el Marketplace (demo)</h3>
+<table>
+  <tr><th>Nombre</th><th>Ex-cargo</th><th>Empresa</th><th>Sector</th><th>Exp.</th><th>Tarifa</th><th>Rating</th></tr>
+  <tr><td><strong>Raúl Mendoza Calderón</strong></td><td>Ex-CFO</td><td>Tuboplast Bolivia</td><td>Finanzas industriales</td><td>38 años</td><td>USD 95/h</td><td>5.0 ⭐</td></tr>
+  <tr><td><strong>Martha Aguilera Vaca</strong></td><td>Ex-Gerente Comercial</td><td>IASA</td><td>Agroindustria · Comercial</td><td>33 años</td><td>USD 70/h</td><td>4.8 ⭐</td></tr>
+  <tr><td><strong>Carlos Vargas Mercado</strong></td><td>Ex-Director de Operaciones</td><td>YPFB Andina</td><td>Hidrocarburos</td><td>42 años</td><td>USD 140/h</td><td>5.0 ⭐</td></tr>
+  <tr><td><strong>Elena Justiniano Roca</strong></td><td>Ex-Gerente de RRHH</td><td>Banco Mercantil SC</td><td>Talento · Banca</td><td>35 años</td><td>USD 85/h</td><td>4.9 ⭐</td></tr>
+  <tr><td><strong>Enrique Pinto Salvatierra</strong></td><td>Ex-Jefe de Mantenimiento</td><td>CRE</td><td>Energía eléctrica</td><td>39 años</td><td>USD 75/h</td><td>4.8 ⭐</td></tr>
+</table>
+
+<h3>Otros empleados en el pipeline de jubilaciones de FlexoCruz</h3>
+<table>
+  <tr><th>Empleado</th><th>Cargo</th><th>Jubilación estimada</th><th>Sucesor</th><th>Riesgo</th></tr>
+  <tr><td>Lorgio Saucedo Roca</td><td>Gerente de Producción</td><td>Sep 2026</td><td>Juan Antelo ✓</td><td style="color:green">Bajo · en traspaso</td></tr>
+  <tr><td>Carlos Rojas Mercado</td><td>Jefe de Mantenimiento</td><td>Nov 2026</td><td>Por designar</td><td style="color:#c9a84c">Alto · sin sucesor</td></tr>
+  <tr><td>Esther Vaca</td><td>Contralora interna</td><td>Mar 2027</td><td>Daniela Suárez ✓</td><td style="color:#e07b00">Medio</td></tr>
+  <tr><td>Hugo Pinto Salvatierra</td><td>Jefe de Calidad</td><td>Jun 2027</td><td>Por designar</td><td style="color:#c9a84c">Alto · sin sucesor</td></tr>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<h2>Glosario de términos</h2>
+<table>
+  <tr><th>Término</th><th>Definición</th></tr>
+  <tr><td class="label">Senior</td><td>Profesional con larga trayectoria que se retira y ofrece su conocimiento en la plataforma.</td></tr>
+  <tr><td class="label">Sucesor</td><td>Empleado interno de la empresa que recibirá el conocimiento del senior.</td></tr>
+  <tr><td class="label">Traspaso / Transferencia interna</td><td>Proceso de 6 meses donde el senior acompaña y capacita a su sucesor.</td></tr>
+  <tr><td class="label">Módulo</td><td>Etapa temática del programa de traspaso (ej: "Gestión de proveedores", "Liderazgo de equipo").</td></tr>
+  <tr><td class="label">Sesión</td><td>Encuentro formal (presencial o virtual) entre el senior y el sucesor, documentado en la plataforma.</td></tr>
+  <tr><td class="label">Bitácora</td><td>Registro cronológico de todas las sesiones, notas y archivos del programa.</td></tr>
+  <tr><td class="label">Match %</td><td>Porcentaje de compatibilidad calculado entre el perfil de un senior y los requerimientos de una empresa.</td></tr>
+  <tr><td class="label">Marketplace</td><td>Espacio donde las empresas publican necesidades y los seniors postulan. Equivale al "Modo 2".</td></tr>
+  <tr><td class="label">Pipeline de jubilaciones</td><td>Registro interno de la empresa de los empleados próximos a retirarse y su estado de cobertura.</td></tr>
+  <tr><td class="label">Liquidación</td><td>Pago mensual de honorarios al senior, emitido el último día hábil del mes.</td></tr>
+  <tr><td class="label">Comisión</td><td>Porcentaje que retiene Legacy sobre los honorarios del senior por usar la plataforma.</td></tr>
+  <tr><td class="label">ESG</td><td>Siglas de Environmental, Social and Governance (Ambiental, Social y Gobernanza). Estándar internacional de reporte de impacto empresarial.</td></tr>
+  <tr><td class="label">ROI</td><td>Retorno sobre inversión. Legacy mide cuánto ahorra la empresa al transferir conocimiento vs. contratar y entrenar personal desde cero.</td></tr>
+  <tr><td class="label">Verificado</td><td>Estado que obtiene un senior cuando Legacy confirma su trayectoria con empresas anteriores.</td></tr>
+  <tr><td class="label">On-call</td><td>Modalidad del Modo 3: el senior queda disponible para ser contratado por horas según demanda, sin compromiso fijo.</td></tr>
+</table>
+
+<div class="footer">
+  Legacy SRL · Santa Cruz, Bolivia · v1.0 MVP · 2026<br>
+  Documento generado para uso interno y presentación.
+</div>
+
+</body>
+</html>

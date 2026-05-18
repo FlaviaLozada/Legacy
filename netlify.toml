@@ -1,0 +1,14 @@
+[build]
+  publish = "FORECAST365"
+  command = ""
+
+[[headers]]
+  for = "/*.jsx"
+  [headers.values]
+    Content-Type = "application/javascript"
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"

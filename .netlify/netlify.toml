@@ -1,0 +1,39 @@
+headersOrigin = "config"
+plugins = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "D:\\LEGACY - FERIA DE EMPRENDIMIENTO\\FORECAST365"
+publishOrigin = "config"
+commandOrigin = "ui"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
+
+[[headers]]
+for = "/*.jsx"
+
+[headers.values]
+Content-Type = "application/javascript"
+Cache-Control = "public, max-age=3600"
+
+[[headers]]
+for = "/*.css"
+
+[headers.values]
+Cache-Control = "public, max-age=86400"
